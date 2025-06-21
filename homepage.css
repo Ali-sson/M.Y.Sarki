@@ -106,6 +106,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: center;
+    height: auto;
 }
 
 
@@ -540,6 +541,9 @@ nav a:active {
 @media (max-width: 35rem){
     html {
         font-size: 40%;
+    }
+    .hero {
+        height: 80vh;
     }
 
     .hero h1 {
