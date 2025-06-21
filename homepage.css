@@ -548,8 +548,9 @@ nav a:active {
         font-size: 3.6rem;
     }
     .hero-overlay {
-        background-size: 100%;
-        background-position: center;
+    background-size: cover;
+    background-position: center;
+  
     }
 
     .footer-content {
