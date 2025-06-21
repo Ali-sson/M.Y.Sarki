@@ -35,4 +35,4 @@ const observer = new IntersectionObserver((entries) => {
 });
 
 // Attach observer to all sections and cards
-document.querySelectorAll("section, .card, div").forEach((el) => observer.observe(el));
+document.querySelectorAll("section, .card").forEach((el) => observer.observe(el));

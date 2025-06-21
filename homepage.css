@@ -49,7 +49,7 @@ html {
     }
 
     /* Fade-in effect */
-section, .card, .div {
+section, .card {
   opacity: 0;
   transform: translateY(30px);
   transition: opacity 1s ease, transform 1s ease;
@@ -258,16 +258,16 @@ nav a:active {
 /* Background animation keyframes */
 @keyframes slideBackground {
   0%, 20% {
-    background-image: url('/images/about-image.jpeg');
+    background-image: url('images/about-image.jpeg');
   }
   25%, 45% {
-    background-image: url('/images/profile-pics1.jpeg');
+    background-image: url('images/profile-pics1.jpeg');
   }
   50%, 70% {
-    background-image: url('/images/profile-pics2.jpeg');
+    background-image: url('images/profile-pics2.jpeg');
   }
   75%, 100% {
-    background-image: url('/images/profile-pics1.jpeg');
+    background-image: url('images/profile-pics1.jpeg');
   }
 }
 
