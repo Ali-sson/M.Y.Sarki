@@ -178,7 +178,7 @@ nav a:active {
 
 .hero {
   position: relative;
-  height: 100vh;
+  height: 100svh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -542,9 +542,7 @@ nav a:active {
     html {
         font-size: 40%;
     }
-    .hero {
-        height: 80vh;
-    }
+  
 
     .hero h1 {
         font-size: 3.6rem;
