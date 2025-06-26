@@ -33,6 +33,18 @@ body {
     overflow-x: hidden;
 }
 
+    /* Fade-in effect */
+section, .card {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 1s ease, transform 1s ease;
+}
+
+section.show, .card.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 
 h1, h2, h3 {
     color: var(--secondary-text-color);
@@ -96,9 +108,10 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* position: fixed; */
+    position: fixed;
     top: 0;
     width: 100%;
+    z-index: 1000;
 }
 
 nav{
@@ -119,7 +132,7 @@ nav{
 .nav-links {
   display: flex;
   gap: 10px;
-   margin-left: 40rem;
+  margin-left: 30rem;
 }
 
 .hamburger {
@@ -183,12 +196,12 @@ nav a:active {
 .hero {
     background: var(--secondary-bg-color);
     color: var(--main-text-color);
-    padding: 20px;
+    padding: 90px 10px;
     text-align: center;
 }
 
 .hero h1 {
-    font-size: 4.8rem;
+    font-size: 4rem;
     margin-bottom: 2rem;
     text-align: left;
 }
@@ -262,11 +275,11 @@ nav a:active {
 }
 
 .mv-card {
-  background-color: #fff;
+ background: linear-gradient(to bottom, #f0f5ff, #fff9f0);
+
   padding: 30px 20px;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-  /* flex: 1 1 45rem; */
   max-width: 550px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -288,17 +301,7 @@ nav a:active {
   color: #555;
 }
 
-/* Responsive */
-@media (max-width: 768px) {
-  .mv-container {
-    flex-direction: column;
-    align-items: center;
-  }
 
-  .mv-card {
-    max-width: 80%;
-  }
-}
 
 .core-values {
   padding: 60px 20px;
@@ -325,11 +328,11 @@ nav a:active {
 }
 
 .value-card {
-  background-color: #fff;
-  padding: 30px 20px;
+background: linear-gradient(to bottom, #f0f5ff, #fff9f0);
+
+  padding: 20px 20px;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-  flex: 1 1 30rem;
   max-width: 350px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   text-align: left;
@@ -353,6 +356,15 @@ nav a:active {
   line-height: 1.7;
   color: #555;
   text-align: center;
+}
+
+.value-card i {
+  font-size: 3rem;
+  color: #FFA500;
+  margin-bottom: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Responsive */
@@ -573,7 +585,12 @@ nav a:active {
     html {
         font-size: 50%;
     }
-    .cta-content {
+
+  .hero h1 {
+    font-size: 3.6rem;
+  }
+
+  .cta-content {
     flex-direction: column;
   }
 
@@ -581,10 +598,23 @@ nav a:active {
     width: 50%;
     max-width: 350px;
   }
+  .mv-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .mv-card {
+    max-width: 80%;
+  }
 }
+
 
 @media (max-width: 35rem){
     html {
         font-size: 40%;
+    }
+
+    .hero h1 {
+        font-size: 3.6rem;
     }
 }
