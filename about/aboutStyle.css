@@ -223,7 +223,7 @@ nav a:active {
 }
 
 .hero-content img {
-    width: 50%;
+    width: 70%;
     max-width: 400px;
     border-radius: 10px;
 }
@@ -397,8 +397,10 @@ background: linear-gradient(to bottom, #f0f5ff, #fff9f0);
   gap: 30px;
 }
 
-.cta-image {
-  width: 300px;
+
+
+.cta-content img {
+  width: 70%;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
