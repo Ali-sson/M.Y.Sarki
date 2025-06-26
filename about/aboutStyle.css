@@ -634,9 +634,9 @@ background: linear-gradient(to bottom, #f0f5ff, #fff9f0);
 }
 
 .cta-button {
-    width: 50%;
+    width: 100%;
     text-align: center;
-    margin: 2rem;
+    margin: -1.5rem;
   }
 
 }
