@@ -124,7 +124,7 @@ nav{
 .nav-links {
   display: flex;
   gap: 10px;
-  margin-left: 40rem;
+  margin-left: 30rem;
 }
 
 .hamburger {
@@ -513,7 +513,7 @@ nav a:active {
 
 
 /* Responsive */
-@media (max-width: 78rem) {
+@media (max-width: 72rem) {
   .nav-links {
     display: none;
     flex-direction: column;
