@@ -414,6 +414,14 @@ background: linear-gradient(to bottom, #f0f5ff, #fff9f0);
   line-height: 1.6;
 }
 
+.cta-buttons-container {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
 .cta-button {
   display: inline-block;
   padding: 12px 28px;
@@ -439,7 +447,7 @@ background: linear-gradient(to bottom, #f0f5ff, #fff9f0);
 .footer {
   background-color: var(--main-bg-color);
   color: var(--main-text-color);
-  padding: 60px 20px;
+  padding: 40px 20px;
   margin: 0;
   width: 100%;
   border: none;
@@ -518,7 +526,7 @@ background: linear-gradient(to bottom, #f0f5ff, #fff9f0);
 
 .footer-bottom {
   border-top: 1px solid #444;
-  padding-top: 20px;
+  padding-top: 20px 0 0;
   text-align: center;
   font-size: 1.4rem;
   color: #aaa;
@@ -587,7 +595,7 @@ background: linear-gradient(to bottom, #f0f5ff, #fff9f0);
     }
 
   .hero h1 {
-    font-size: 3.6rem;
+    font-size: 3rem;
   }
 
   .cta-content {
@@ -615,6 +623,20 @@ background: linear-gradient(to bottom, #f0f5ff, #fff9f0);
     }
 
     .hero h1 {
-        font-size: 3.6rem;
+        font-size: 3rem;
     }
+
+    .cta-buttons-container {
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cta-button {
+    width: 50%;
+    text-align: center;
+    margin: 2rem;
+  }
+
 }

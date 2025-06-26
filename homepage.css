@@ -510,6 +510,11 @@ nav a:active {
   line-height: 1.6;
 }
 
+.footer-bottom p {
+    font-size: 1.4rem;
+}
+
+
 
 
 /* Responsive */
