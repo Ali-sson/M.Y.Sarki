@@ -483,9 +483,16 @@ nav a:active {
     html {
         font-size: 50%;
     }
+
+    .sermons-section {
+      padding: 50px 10px;
+      height: auto;
+      text-align: center;
+
+    }
     .video-cards {
       max-width: 1000px;
-      width: 70%;
+      width: 90%;
        flex: 1 1 200px;
     }
 }
