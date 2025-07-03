@@ -27,7 +27,7 @@ html {
 
 body {
     width: 100%;
-    height: 100vh;
+    height: 100svh;
     margin: 0;
     padding: 0;
     overflow-x: hidden;
@@ -442,24 +442,20 @@ background: linear-gradient(to bottom, #f0f5ff, #fff9f0);
 
 
 
-
-
-
-/* Footer */
-
+ 
 .footer {
   background-color: var(--main-bg-color);
   color: var(--main-text-color);
-  padding: 40px 20px;
+  padding: 40px 30px;
   margin: 0;
   width: 100%;
-  border: none;
+  border: none
 }
 
 .footer-content {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: center;
   gap: 30px;
   margin-bottom: 4rem;
   text-align: center;
@@ -521,7 +517,7 @@ background: linear-gradient(to bottom, #f0f5ff, #fff9f0);
 
 .footer-social {
   display: flex;
-  gap: 15px;
+    gap: 15px;
   justify-content: flex-start;
 }
 
@@ -529,17 +525,17 @@ background: linear-gradient(to bottom, #f0f5ff, #fff9f0);
 
 .footer-bottom {
   border-top: 1px solid #444;
-  padding-top: 20px 0 0;
+  padding-top: 20px 0 0 0;
   text-align: center;
   font-size: 1.4rem;
   color: #aaa;
   line-height: 1.6;
- 
 }
 
 .footer-bottom p {
     font-size: 1.4rem;
 }
+
 
 
 
