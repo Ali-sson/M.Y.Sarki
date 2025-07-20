@@ -195,12 +195,13 @@ nav a:active {
 .hero-section {
   background: linear-gradient(135deg, #0A1A2F, #1E3E62);
   color: #fff;
-  padding: 100px 20px;
+  padding: 50px 20px;
   text-align: center;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  height: 60vh;
 }
 
 
@@ -504,5 +505,6 @@ nav a:active {
     html {
         font-size: 50%;
     }
+
 }
 
