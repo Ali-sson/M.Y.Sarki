@@ -506,5 +506,10 @@ nav a:active {
         font-size: 50%;
     }
 
+    .hero-section {
+        padding: 60px 10px;
+        height: auto;
+    }
+
 }
 
