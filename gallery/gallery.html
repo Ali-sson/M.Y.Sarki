@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    <link rel="stylesheet" href="books.css">
+    <link rel="stylesheet" href="gallery.css">
     <title>Books</title>
 </head>
 <body>
@@ -35,67 +35,38 @@
   </nav>
 </header>
 
-<!-- Hero Section -->
 
   <section class="hero-section">
     <div class="hero-content">
-      <h1><span style="color: white;">Inspiring </span>Books</h1>
+      <h1>Ministry<span style="color: white;"></span> Gallery</h1>
       <p>
-        Discover life-changing books by Pastor Micah Sarki that will deepen your faith, strengthen your spiritual foundation, and guide you closer to God's purpose for your life.
-      </p>
+      Explore moments of faith, fellowship, and ministry through our photo gallery. Witness the amazing work God is doing in our community.      </p>
     </div>
   </section>
 
-  
-  <div class="featured-book">
-    <h1>Featured Book</h1>
-  </div>
+  <!-- Category Nav -->
+<nav class="category-nav">
+  <a href="#" class="category-link active" data-category="all">All</a>
+  <a href="#" class="category-link" data-category="events">Events</a>
+  <a href="#" class="category-link" data-category="youth">Youth Ministry</a>
+  <a href="#" class="category-link" data-category="bible">Bible Study</a>
+  <a href="#" class="category-link" data-category="prayer">Prayer</a>
+  <a href="#" class="category-link" data-category="outreach">Outreach</a>
+  <a href="#" class="category-link" data-category="worship">Worship</a>
+  <a href="#" class="category-link" data-category="leadership">Leadership</a>
+  <a href="#" class="category-link" data-category="digital">Digital Ministry</a>
+</nav>
 
-  <div class="book-container">
-    <div class="book-image">
-      <img src="book-cover.jpg" alt="Book Cover">
-    </div>
+<!-- Image Gallery -->
+<div class="gallery">
+  <img src="img1.jpg" class="gallery-item" data-category="events">
+  <img src="img2.jpg" class="gallery-item" data-category="youth">
+  <img src="img3.jpg" class="gallery-item" data-category="bible">
+  <img src="img4.jpg" class="gallery-item" data-category="prayer">
+  <img src="img5.jpg" class="gallery-item" data-category="events">
+  <img src="img6.jpg" class="gallery-item" data-category="digital">
+</div>
 
-    <div class="book-details">
-      <h2>When A Woman Says Yes</h2>
-      <p class="subtitle">Unveiling the purpose of a Woman's "Yes" in Love, Marriage, and identity</p>
-
-      <div class="rating">
-        ★★★★★ <span class="reviews">(156 reviews)</span>
-      </div>
-
-      <p class="book-description">
-       A Biblical Gude to Understanding the Power, Purpose, and Role of a Woman's "Yes" in Marriage and Beyond
-      </p>
-
-      <p class="price">N2,000</p>
-      <p class="meta">80 pages • Published 2023</p>
-
-      <div class="buttons">
-        <a href="https://selar.com/m/micah-yohanna-sarki1?currency=NGN" class="purchase-btn" target="_blank">🛒 Purchase Book</a>
-
-      </div>
-    </div>
-  </div>
-
-  
-    <section class="books-section">
-  <div class="books-container">
-    <h2>Transform Your Life Through God's Word</h2>
-    <p>
-      Each book is carefully crafted to provide practical wisdom and spiritual insights
-      that will help you grow in your faith and live with greater purpose.
-    </p>
-    <a href="#" class="btn">Browse All Books</a>
-  </div>
-</section>
-
-
-
-
-
-
- 
 
 <!-- Footer -->
 
@@ -135,13 +106,14 @@
   </div>
     </div>
 
+    
+
   <div class="footer-bottom">
     <p>© 2024 Pastor Micah Sarki Ministry. All rights reserved.</p>
     <p>Built with love for the Kingdom of God</p>
   </div>
 </footer>   
 
-
-<script src="books.js"></script>
+<script src="gallery.js"></script>
 </body>
 </html>
