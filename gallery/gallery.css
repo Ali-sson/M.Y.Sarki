@@ -420,9 +420,21 @@ nav a:active {
     color: var(--main-bg-color);
   }}
 
+ @media (max-width: 48rem){
+    html {
+        font-size: 40%;
+    }
+    .hero-section{
+        height: 40vh;
+    }
+}
+
  @media (max-width: 35rem){
     html {
         font-size: 40%;
+    }
+    .hero-section{
+        height: auto;
     }
 }
 
