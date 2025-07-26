@@ -541,4 +541,10 @@ nav a:active {
 
 }
 
+@media (max-width: 35rem){
+    html {
+        font-size: 40%;
+    }
+  }
+
 

@@ -136,6 +136,17 @@ right: 20px;
   background-color: var(--main-text-color);
 }
 
+section, .card {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 1s ease, transform 1s ease;
+}
+
+section.show, .card.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 
 /* Toggle animation when hamburger is active */
 .hamburger.toggle span:nth-child(1) {
@@ -261,7 +272,7 @@ nav a:active {
 
 .gallery-item {
   width: 200px;
-  height: 150px;
+  height: 200px;
   object-fit: cover;
   display: block;
 }
@@ -409,23 +420,9 @@ nav a:active {
     color: var(--main-bg-color);
   }}
 
-  /* .category-nav {
-  display: flex;
-  gap: 5px;
-  flex-wrap: wrap;
-  flex-direction: row;
-  padding: 10px;
-  justify-content: center;
-  background-color: black;
-    flex: 0 1 auto;
+ @media (max-width: 35rem){
+    html {
+        font-size: 40%;
+    }
 }
- .category-nav a {
-    color: red;
-    background: none;
-    border: none;
-    flex: 0 1 auto;
-    
- }
-} */
-
 

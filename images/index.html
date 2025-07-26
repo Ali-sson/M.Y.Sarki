@@ -1,0 +1,209 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The King's Ministry</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background-color: #000000;
+      color: #FFFFFF;
+    }
+
+    header {
+      background-color: #FFD700;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      color: #000000;
+    }
+
+    nav {
+      background-color: #DAA520;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding: 10px;
+    }
+
+    nav a {
+      color: #FFFFFF;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      background: linear-gradient(90deg, #FFD700, #DAA520);
+      color: #000000;
+      padding: 5px 10px;
+      border-radius: 5px;
+    }
+
+    .section {
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .section h2 {
+      color: #FFD700;
+      margin-bottom: 20px;
+    }
+
+    .section p {
+      max-width: 700px;
+      margin: 0 auto 20px;
+      color: #CCCCCC;
+    }
+
+    .books {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 30px;
+    }
+
+    .book {
+      background-color: #333333;
+      border-radius: 8px;
+      padding: 20px;
+      max-width: 250px;
+      text-align: left;
+    }
+
+    .book h3 {
+      color: #FFD700;
+    }
+
+    .book p {
+      color: #CCCCCC;
+    }
+
+    form {
+      max-width: 600px;
+      margin: 0 auto;
+      text-align: left;
+    }
+
+    form label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+
+    form input, form textarea {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 20px;
+      border: none;
+      border-radius: 5px;
+      background-color: #222222;
+      color: #FFFFFF;
+    }
+
+    form input::placeholder, form textarea::placeholder {
+      color: #999999;
+    }
+
+    form button {
+      background-color: #DAA520;
+      color: #FFFFFF;
+      padding: 12px 30px;
+      border: none;
+      border-radius: 5px;
+      font-size: 1em;
+      cursor: pointer;
+    }
+
+    form button:hover {
+      background: linear-gradient(90deg, #FFD700, #DAA520);
+      color: #000000;
+    }
+
+    footer {
+      background-color: #333333;
+      padding: 20px;
+      text-align: center;
+      color: #CCCCCC;
+      margin-top: 50px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>The King's Ministry</h1>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#messages">Messages</a>
+    <a href="#books">Books</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div id="home" class="section">
+    <h2>Welcome to The King's Ministry</h2>
+    <p>Spreading the gospel of Christ through sound doctrine, love, and kingdom empowerment. Join us on this divine journey.</p>
+  </div>
+
+  <div id="about" class="section">
+    <h2>About Us</h2>
+    <p>The King's Ministry is a prophetic and teaching ministry with a vision to raise kingdom-minded believers equipped to make impact in their generation. Through Spirit-filled messages, books, and outreach programs, we are committed to transforming lives for God's glory.</p>
+  </div>
+
+  <div id="messages" class="section">
+    <h2>Messages</h2>
+    <p>Listen to life-changing sermons and teachings by our ministry leaders. Stay inspired, uplifted, and transformed through God's Word.</p>
+    <p><a href="#" style="color: #FFD700; text-decoration: underline;">Click here to stream our latest sermons &rarr;</a></p>
+  </div>
+
+  <div id="books" class="section">
+    <h2>Bookstore</h2>
+    <div class="books">
+      <div class="book">
+        <h3>Faith That Moves Mountains</h3>
+        <p>An inspiring book on developing unshakeable faith in God to overcome life’s challenges.</p>
+      </div>
+      <div class="book">
+        <h3>Secrets of Kingdom Prosperity</h3>
+        <p>Discover biblical principles for financial success and living a life of abundance.</p>
+      </div>
+      <div class="book">
+        <h3>The Power of Prayer</h3>
+        <p>A powerful guide to building a consistent and effective prayer life.</p>
+      </div>
+    </div>
+  </div>
+
+  <div id="contact" class="section">
+    <h2>Contact Us</h2>
+    <p>We’d love to hear from you! Send us a message using the form below:</p>
+    <form action="#" method="POST">
+      <label for="name">Full Name</label>
+      <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+
+      <label for="email">Email Address</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+      <label for="message">Your Message</label>
+      <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </div>
+
+  <footer>
+    &copy; 2025 The King's Ministry. All rights reserved.
+  </footer>
+
+</body>
+</html>
