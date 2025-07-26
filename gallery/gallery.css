@@ -407,9 +407,9 @@ nav a:active {
     width: 100%;
     text-align: left;
     color: var(--main-bg-color);
-  }
+  }}
 
-  .category-nav {
+  /* .category-nav {
   display: flex;
   gap: 5px;
   flex-wrap: wrap;
@@ -426,6 +426,6 @@ nav a:active {
     flex: 0 1 auto;
     
  }
-}
+} */
 
 
