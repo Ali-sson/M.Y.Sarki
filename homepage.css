@@ -508,10 +508,12 @@ nav a:active {
   font-size: 1.4rem;
   color: #aaa;
   line-height: 1.6;
+  margin-top: 20px;
 }
 
 .footer-bottom p {
     font-size: 1.4rem;
+    margin-top: 2rem;
 }
 
 

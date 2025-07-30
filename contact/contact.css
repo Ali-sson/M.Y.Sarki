@@ -277,6 +277,7 @@ h2 {
   border-radius: 6px;
   border: 1px solid #d1d5db;
   font-size: 16px;
+
 }
 
 .form-row {
@@ -425,6 +426,7 @@ button:hover {
 
 .footer-bottom p {
     font-size: 1.4rem;
+    margin-top: 2rem;
 }
 
 
