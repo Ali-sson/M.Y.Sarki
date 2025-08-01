@@ -59,6 +59,18 @@ body {
         text-decoration: none;
     }
 
+        /* Fade-in effect */
+section, .card {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 1s ease, transform 1s ease;
+}
+
+section.show, .card.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 
 
 /* Global Styles */
@@ -486,3 +498,4 @@ button:hover {
         height: auto;
     }
 }
+
