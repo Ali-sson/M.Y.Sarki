@@ -148,17 +148,6 @@ right: 20px;
   background-color: var(--main-text-color);
 }
 
-/* section, .card {
-  opacity: 0;
-  transform: translateY(30px);
-  transition: opacity 1s ease, transform 1s ease;
-}
-
-section.show, .card.show {
-  opacity: 1;
-  transform: translateY(0);
-} */
-
 
 /* Toggle animation when hamburger is active */
 .hamburger.toggle span:nth-child(1) {
@@ -291,7 +280,10 @@ h2 {
   font-size: 16px;
 
 }
-
+.form-group {
+  flex: 1; /* Allows each group to grow equally */
+  min-width: 200px;
+}
 .form-row {
   display: flex;
   gap: 10px;
@@ -299,7 +291,7 @@ h2 {
 }
 
 .form-row input {
-  flex: 1 1 45%;
+  flex: 1 1 100%;
 }
 
 label {
